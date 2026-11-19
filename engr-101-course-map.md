@@ -269,16 +269,16 @@ The current map introduces systems thinking through interfaces and integrated be
 
 ## Engr 201 material to adapt
 
-| Local source | Use in Engr 101 |
+| Private remote source | Use in Engr 101 |
 | --- | --- |
-| [Syllabus](D:/dfas/engr-201/SYLLABUS.MD) | Reference for existing activities and communication sequence; policies require separate course decisions |
-| [Rocket prediction](D:/dfas/engr-201/assignments/rocket_prediction/ASSIGNMENT_INSTRUCTIONS.md) | Adapt estimate, force balance, numerical trajectory, and plots to a scaffolded notebook; replace fitted Cd with its arithmetic mean |
-| [Rocket prediction algorithm](D:/dfas/engr-201/assignments/rocket_prediction/rocket_prediction_algorithm.md) | Starting point for sequencing the flight calculation; reconcile update conventions and correct notation before reuse |
-| [Modeling notes](D:/dfas/engr-201/notes/06%20modeling.md) and [numerical integration notes](D:/dfas/engr-201/notes/07%20numerical%20integration.md) | Rebuild around freshman preparation, force diagrams, rates, and accumulation; verify equations before conversion |
-| [Arduino introduction](D:/dfas/engr-201/assignments/arduino_intro/ASSIGNMENT_INSTRUCTIONS.md) | Adapt upload, simple modifications, and nonblocking timing examples |
-| [Rocket instrumentation](D:/dfas/engr-201/assignments/rocket_instrumentation/ASSIGNMENT_INSTRUCTIONS.md) | Adapt acquisition, battery operation, altitude tests, and flight-event logic; extend toward verified actuation |
-| [Rocket launch](D:/dfas/engr-201/assignments/rocket_launch/ASSIGNMENT_INSTRUCTIONS.md) | Retain readiness reasoning and quick-look communication; provide procedures rather than assigning procedure authorship |
-| [Technical paper](D:/dfas/engr-201/assignments/paper/ASSIGNMENT_INSTRUCTIONS.md) | Simplify into a group report with progressive revision and a deployment design argument |
+| [Syllabus](https://github.com/usafa-engr-201/engr-201/blob/b307a9e96fa7d3dbdfb82caf2f1197efcedc867d/SYLLABUS.MD) | Reference for existing activities and communication sequence; policies require separate course decisions |
+| [Rocket prediction](https://github.com/usafa-engr-201/engr-201/blob/b307a9e96fa7d3dbdfb82caf2f1197efcedc867d/assignments/rocket_prediction/ASSIGNMENT_INSTRUCTIONS.md) | Adapt estimate, force balance, numerical trajectory, and plots to a scaffolded notebook; replace fitted Cd with its arithmetic mean |
+| [Rocket prediction algorithm](https://github.com/usafa-engr-201/engr-201/blob/b307a9e96fa7d3dbdfb82caf2f1197efcedc867d/assignments/rocket_prediction/rocket_prediction_algorithm.md) | Starting point for sequencing the flight calculation; reconcile update conventions and correct notation before reuse |
+| [Modeling notes](https://github.com/usafa-engr-201/engr-201/blob/b307a9e96fa7d3dbdfb82caf2f1197efcedc867d/notes/06%20modeling.md) and [numerical integration notes](https://github.com/usafa-engr-201/engr-201/blob/b307a9e96fa7d3dbdfb82caf2f1197efcedc867d/notes/07%20numerical%20integration.md) | Rebuild around freshman preparation, force diagrams, rates, and accumulation; verify equations before conversion |
+| [Arduino introduction](https://github.com/usafa-engr-201/engr-201/blob/b307a9e96fa7d3dbdfb82caf2f1197efcedc867d/assignments/arduino_intro/ASSIGNMENT_INSTRUCTIONS.md) | Adapt upload, simple modifications, and nonblocking timing examples |
+| [Rocket instrumentation](https://github.com/usafa-engr-201/engr-201/blob/b307a9e96fa7d3dbdfb82caf2f1197efcedc867d/assignments/rocket_instrumentation/ASSIGNMENT_INSTRUCTIONS.md) | Adapt acquisition, battery operation, altitude tests, and flight-event logic; extend toward verified actuation |
+| [Rocket launch](https://github.com/usafa-engr-201/engr-201/blob/b307a9e96fa7d3dbdfb82caf2f1197efcedc867d/assignments/rocket_launch/ASSIGNMENT_INSTRUCTIONS.md) | Retain readiness reasoning and quick-look communication; provide procedures rather than assigning procedure authorship |
+| [Technical paper](https://github.com/usafa-engr-201/engr-201/blob/b307a9e96fa7d3dbdfb82caf2f1197efcedc867d/assignments/paper/ASSIGNMENT_INSTRUCTIONS.md) | Simplify into a group report with progressive revision and a deployment design argument |
 
 Atmosphere-calculator development, Simulink, and the discipline-specific Aero/Astro blocks are outside this map. The proportion reused should be measured against agreed outcomes and instructional time rather than file count.
 
