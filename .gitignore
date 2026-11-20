@@ -4,6 +4,10 @@ venv/
 __pycache__/
 .ipynb_checkpoints/
 .pio/
+.pixi/
+.tools/
+build/
+projects/rocket_prediction/outputs/
 
 # Local credentials and OS files
 .env

@@ -1,0 +1,19 @@
+{
+  "source_repository": "https://github.com/usafa-engr-201/engr-201",
+  "reviewed_local_revision": "b307a9e96fa7d3dbdfb82caf2f1197efcedc867d",
+  "sources": {
+    "EstesD12.mat": "6c96914d8d28961a4f00725fd4f58b0106b6032e27243517c4857b94bfd6370d",
+    "drag_data_2025.csv": "9cd8e3e51eca19736b8ae43fa8178a4029f91e4ff233a7ec7ffa0ff29e1a23b4"
+  },
+  "motor_variable": "EstesD12",
+  "motor_label": "D12 (confirmed by course lead)",
+  "prepended_zero_time_zero_thrust": true,
+  "motor_rows": 21,
+  "tunnel_numeric_rows": 8,
+  "transformations": [
+    "Transpose MATLAB 2 by N array to time/thrust rows",
+    "Prepend (0 s, 0 N) when missing",
+    "Normalize tunnel column labels; omit headers, units, and trailing metadata",
+    "Retain numeric values to 12 significant digits"
+  ]
+}

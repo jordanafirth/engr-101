@@ -34,6 +34,7 @@ The course serves freshmen in every major and establishes practices that the rem
 - Schedule Tests 1, 2, and 3 in lessons 14, 23, and 33. Schedule the final separately in the official exam period, date to be confirmed. Use lesson 41 for synthesis, closure, and final preparation.
 - Use the deployment mechanism to demonstrate a benign physical action whose completion can be observed. Define the specific payload, mechanism boundaries, flight conditions, and integration constraints before writing the assignment.
 - Provide atmospheric properties and supported conversion routines. Students explain what those inputs mean and check units without implementing an atmosphere calculator.
+- Use Pixi to define and lock the Python/Jupyter environment. The [guided D12 project](projects/rocket_prediction/README.md) is the initial notebook implementation; review its demonstration inputs and classroom setup before use.
 
 Existing Engr 201 student policies and assignment instructions are reference material. They do not automatically establish Engr 101 policies, grading rules, or software requirements.
 

@@ -16,7 +16,8 @@ This backlog identifies work still to be done. Check items only when the corresp
 
 ## During the opening block
 
-- [ ] Produce a scaffolded flight notebook with units, assumptions, thrust import, signed drag, numerical updates, flight phases, and checks against simple cases.
+- [x] Produce a scaffolded flight notebook with units, assumptions, thrust import, signed drag, numerical updates, flight phases, and checks against simple cases; see projects/rocket_prediction.
+- [ ] Instructor-review the demonstration inputs, student workload, and guided scaffolding; test the locked Pixi launch on a cadet laptop.
 - [ ] Prepare a tunnel data sheet, supported environmental inputs, and straight-mean Cd analysis.
 - [ ] Establish actual vehicle mass and a baseline prediction for the approximately 600 mm D12 rocket and desired 100 m maximum altitude.
 - [ ] Develop the first paper-and-calculator application checks with short partial-credit rubrics.

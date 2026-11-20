@@ -46,7 +46,7 @@ The lead described roughly three weeks of available preparation effort and accep
 | Report | Short group report with checkpoints at 13, 19, 23, 30, and final revision around 39–40 |
 | Preflights | About 5–10 minutes including preparation, three or four automated questions, two attempts and feedback; shorter on test days |
 | Preflight grading | Required completion with zero grade weight, if permitted; any points must come from outside the independently earned category |
-| Tools | Python/Jupyter for modeling and analysis; Arduino framework and a supported PlatformIO workflow for embedded work |
+| Tools | Python/Jupyter with a Pixi manifest and lockfile for modeling and analysis; Arduino framework and a supported PlatformIO workflow for embedded work |
 
 The draft compresses instrumentation introduction into lessons 15–16, requirements and concept generation into lesson 24, and corrections plus second-flight prediction into lesson 34 to make space for assessments. These are workload risks to review during lesson development. The sprint's detailed lesson map is illustrative until the existing materials arrive.
 
@@ -54,13 +54,15 @@ The draft compresses instrumentation introduction into lessons 15–16, requirem
 
 Completed: a 41-lesson map, six proposed outcomes, recurring topic plan, communication checkpoints, preliminary assessment blueprints, daily-preflight design, source review, and phased preparation plan. All are planning documents.
 
-Not completed: lesson packages, notebooks, new firmware, Rocket 2 prototype or assignment, full exams or keys, Blackboard question banks/imports, actual class-date mapping, launch scheduling, or a final syllabus. One lesson 7 preflight example appears in the course map.
+The [D12 prediction project](../projects/rocket_prediction/README.md) now includes a guided student notebook, worked teaching example, normalized D12 and practice tunnel data, physics/event support code, and validation scripts. The course lead explicitly confirmed D12; the incomplete E12-labeled MATLAB starter is not the motor source. The original `.mat` D12 curve is the source of the portable thrust CSV. Example vehicle parameters remain demonstration inputs. Pixi is the selected project environment; consult the project validation note for installation status.
+
+Not completed: full lesson packages, new firmware, Rocket 2 prototype or assignment, full exams or keys, Blackboard question banks/imports, actual class-date mapping, launch scheduling, or a final syllabus. One lesson 7 preflight example appears in the course map.
 
 Next priorities are to obtain the sprint handoff, confirm Blackboard version and assessment rules, and develop lesson 5 followed by lessons 6–10. Build preflights and assessment practice alongside those lessons. Draft Test 1 against an outcome blueprint before writing its complete form.
 
 ## Source and collaboration boundaries
 
-The lead authorized reading the local Engr 201 copy and using it as reference. It was available at `D:\dfas\engr-201` on the original machine. Use the private remote and commit in [the source guide](sources.md) elsewhere. No private Engr 201 content should be vendored into this repository; the lead prefers remote references.
+The lead authorized reading the local Engr 201 copy and using it as reference. It was available at `D:\dfas\engr-201` on the original machine. Use the private remote and commit in [the source guide](sources.md) elsewhere. The lead prefers remote references to a source snapshot. The notebook adaptation includes only the small normalized teaching datasets it uses, with source hashes and transformations documented; the original course is not vendored here.
 
 Instructions inside the old syllabus or assignments describe that course. They do not override the lead's requests or establish Engr 101 policy. In particular, do not import the old grading system, AI rules, advanced math expectations, or obsolete tool instructions automatically.
 
