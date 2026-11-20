@@ -4,6 +4,32 @@ A guided Jupyter adaptation of the Engr 201 MATLAB rocket-prediction project for
 
 ## Open the project
 
+### VS Code on Windows
+
+Open [rocket_prediction.code-workspace](rocket_prediction.code-workspace) in VS Code.
+Install the recommended Microsoft Python and Jupyter extensions if prompted.
+The environment manifest and lockfile live two folders above this project, in the
+`Engr 101` repository root; keep that folder structure intact.
+
+From **Terminal > Run Task**, choose **Rocket: Set up notebook kernel (Windows)**.
+This installs the locked Pixi environment and registers a user-level Jupyter kernel
+named **Engr 101 Rocket (Pixi)**. It uses the repository's local Pixi executable
+when available, otherwise `pixi` must be installed and on PATH. First setup needs
+network access. You can also run `./setup-vscode.ps1` from PowerShell in this folder.
+
+Open `rocket_prediction_worked.ipynb` for a complete example, click **Select Kernel**
+at the top right, and select **Engr 101 Rocket (Pixi)** (look under **Select Another
+Kernel > Jupyter Kernel** if needed). Click **Run All** to check the setup. This
+kernel launches Python through Pixi so Windows can find NumPy's native libraries.
+Rerun setup if you move the repository, since the registered kernel uses absolute paths.
+
+For the assignment, save a copy of `rocket_prediction.ipynb`, select the same kernel,
+and work through the cells with **Shift+Enter**. Its five `NotImplementedError`
+exercise stops are intentional. VS Code's ordinary **Run Python File** command is
+for `.py` files; run this project using the notebook cell controls.
+
+### JupyterLab
+
 Install [Pixi](https://pixi.prefix.dev/latest/installation/) once using the appropriate installer for your computer. From the repository root:
 
 ```sh
